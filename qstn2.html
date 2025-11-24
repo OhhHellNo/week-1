@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    style>
+  /* Container is relative so absolute children are positioned inside it */
+  .containerfor2 {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+    margin: 20px;
+  }
+  /* Box 1 is absolute inside container */
+  .box1for2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #f08080; /* light red */
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Box 2 is absolute inside container */
+  .box2for2 {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    width: 100px;
+    height: 100px;
+    background-color: #f08080;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 5;
+  } 
+
+  /* Box 3 is absolute inside container */
+  .box3for2 {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #f08080;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+
+  </style>
+<body>
+    <div id="qstn-2"  >
+<div class="containerfor2">
+  <div class="box1for2">Box 1</div>
+  <div class="box2for2">Box 2
+
+      <a href="qstn3.html">anotherqstn ?</a>
+  </div>
+  <div class="box3for2">Box 3</div>
+</div>
+    
+</body>
+</html>

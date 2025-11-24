@@ -1,0 +1,14 @@
+body{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 5;
+}
+.content{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
